@@ -61,35 +61,10 @@ sidebar:
             title: global.github
             url: https://github.com/
             icon: fab fa-github
-        stack_overflow:
-            title: global.stack_overflow
-            url: http://stackoverflow.com/users
-            icon: fab fa-stack-overflow
-        twitter:
-            title: global.twitter
-            url: https://twitter.com/
-            icon: fab fa-twitter
-        facebook:
-            title: global.facebook
-            url: https://facebook.com/
-            icon: fab fa-facebook
-        google_plus:
-            title: global.google_plus
-            url: https://plus.google.com/
-            icon: fab fa-google-plus
-        linked_in:
-            title: global.linkedin
-            url: https://www.linkedin.com/profile/
-            icon: fab fa-linkedin
         mail:
             title: global.mail
             url: mailto
             icon: fa fa-envelope
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: fa fa-rss
 
 
 # --------------------
@@ -117,21 +92,8 @@ header:
 
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
-    location:
-    # Your profile picture located in folder `source/_images/` (development)
-    # or in `source/assets/images/` (production)
-    # or you can use an external url
-    # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture:
-    # Your Twitter username without the @. E.g : `tranquilpeak`
-    twitter:
-    # Your personal google plus profile id, not your blog or business page id.
-    # E.g : `+JohnDoe` or `123812884128439`
-    google_plus:
-    # Your businnes google plus profile id. If not provided, personal will be used instead.
-    # E.g : `+Tranquilpeak` or `123812884128439`
-    google_plus_business:
+    email: talent_prince@163.com
+    location: Xi'an
 
 
 # -------------
@@ -150,7 +112,7 @@ author:
 # large sidebar is swiped on all lower screens
 # 5: Display header bar on all screens and large sidebar is swiped on large screen
 # 6: Display header bar on all screens and medium sidebar is swiped
-sidebar_behavior: 1
+sidebar_behavior: 2
 # Hide sidebar on all article page to let article take full width to improve reading, and
 # enjoy wide images and cover images. (true: enable, false: disable)
 clear_reading: true
@@ -236,9 +198,9 @@ gitalk:
 # -------------------
 
 # Your Google analystics web property ID : UA-XXXXX-X
-google_analytics_id:
+google_analytics_tracking_id: UA-57710816-1
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
-baidu_analytics_id:
+baidu_analytics_id: 26839bbbc9c89fbe9eb99aba7bceb413
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
 gravatar_email:
 # Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342

@@ -72,7 +72,5 @@ post:
         other: "%d 图片"
 
 author:
-    # 你的个人简介 (支持 Markdown 和 HTML 语法)
-    bio: ""
-    # 你的工作简介
-    job: ""
+    job: Worker
+    bio: Xi'an B/M EE <br> 热爱生活, 关爱老婆 <br> 友情链接 <a href="https://www.cnblogs.com/mengdd/">圣骑士</a>
